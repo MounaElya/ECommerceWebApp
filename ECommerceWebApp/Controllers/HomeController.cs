@@ -26,6 +26,18 @@ namespace ECommerceWebApp.Controllers
         {
             return View();
         }
+        public IActionResult Clothes()
+        {
+            return View();
+        }
+        public IActionResult Vehicles()
+        {
+            return View();
+        }
+        public IActionResult Electronics()
+        {
+            return View();
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
