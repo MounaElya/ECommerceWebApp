@@ -26,6 +26,10 @@ namespace ECommerceWebApp.Controllers
         {
             return View();
         }
+        public IActionResult LoginProprietaire()
+        {
+            return View();
+        }
         public IActionResult Clothes()
         {
             return View();
